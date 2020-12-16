@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 64.286 s <<< FAILURE! - in TestSuite
+dataDrivenTest(com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting)  Time elapsed: 14.251 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid credentials] but found [Identifiants Non Valides]
+	at com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting.dataDrivenTest(DataDrivenTesting.java:23)
+
+dataDrivenTest(com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting)  Time elapsed: 36.115 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RUAD0RO', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\PRANIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e22ca1892773601adc27903216990c10
+	at com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting.dataDrivenTest(DataDrivenTesting.java:16)
+
+dataDrivenTest(com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting)  Time elapsed: 11.311 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid credentials] but found [Identifiants Non Valides]
+	at com.xyz.OrangeHrmApplication.testCases.DataDrivenTesting.dataDrivenTest(DataDrivenTesting.java:23)
+
