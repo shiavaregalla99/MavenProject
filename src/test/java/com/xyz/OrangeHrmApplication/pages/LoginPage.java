@@ -16,6 +16,7 @@ public class LoginPage {
 	@FindBy(id="btnLogin")
 	public WebElement LoginButton;
 	@FindBy(xpath="//span[@id='spanMessage']")
+	
 	public WebElement errorMessage;
 	
 	
